@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Picture_Book">
         <activity
+            android:name=".contact_Activity5"
+            android:exported="false" />
+        <activity
             android:name=".Call_Activity5"
             android:exported="false" />
         <activity

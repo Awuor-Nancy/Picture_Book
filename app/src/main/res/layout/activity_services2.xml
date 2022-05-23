@@ -17,7 +17,7 @@
         app:srcCompat="@drawable/menu" />
 
     <Button
-        android:id="@+id/btn_Back"
+        android:id="@+id/btn_Behind"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -27,7 +27,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/btn_Nxt"
+        android:id="@+id/btn_Ahead"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="24dp"
@@ -42,12 +42,12 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
-        android:shadowColor="#090909"
+        android:layout_marginBottom="200dp"
         android:text="We have a variety of meals at your disposal that your heart desires,at our restaurant you feel homr and all you need is available."
         android:textColor="#000000"
         android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="409dp" />
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

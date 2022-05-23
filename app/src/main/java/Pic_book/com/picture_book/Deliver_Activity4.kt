@@ -7,7 +7,7 @@ import android.widget.Button
 
 class Deliver_Activity4 : AppCompatActivity() {
     lateinit var btn_Home:Button
-    lateinit var btn_Call:Button
+    lateinit var btn_call:Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_deliver2)
@@ -16,9 +16,9 @@ class Deliver_Activity4 : AppCompatActivity() {
             val intent = Intent(this,Services_Activity3::class.java)
             startActivity(intent)
         }
-        btn_Call = findViewById(R.id.btn_Call)
-        btn_Call.setOnClickListener {
-            val intent = Intent(this,Call_Activity5::class.java)
+        btn_call = findViewById(R.id.btn_call)
+        btn_call.setOnClickListener {
+            val intent = Intent(this,contact_Activity5::class.java)
             startActivity(intent)
         }
 

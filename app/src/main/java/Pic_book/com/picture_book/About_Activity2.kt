@@ -23,7 +23,6 @@ class About_Activity2 : AppCompatActivity() {
         btn_Previous.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
-
         }
     }
 }
